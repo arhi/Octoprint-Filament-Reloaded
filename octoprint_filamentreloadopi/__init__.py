@@ -53,7 +53,7 @@ class FilamentReloadedPlugin(octoprint.plugin.StartupPlugin,
                 self._logger.info("Using SUNXI Mode");
                 GPIO.setmode(GPIO.SUNXI)
             self._logger.info("Filament Sensor active on GPIO Pin [%s]"%self.pin)
-            GPIO.setup(self.pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+            GPIO.setup(self.pin, GPIO.IN)
         else:
             self._logger.info("Pin not configured, won't work unless configured!")
 
