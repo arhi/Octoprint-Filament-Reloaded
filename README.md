@@ -1,6 +1,6 @@
 # OctoPrint-FilamentReloaded (OrangePi)
 
-[OctoPrint](http://octoprint.org/) plugin that integrates with a filament sensor hooked up to a Raspberry Pi GPIO pin and allows the filament spool to be changed during a print if the filament runs out.
+[OctoPrint](http://octoprint.org/) plugin that integrates with a filament sensor hooked up to a Orange Pi GPIO pin and allows the filament spool to be changed during a print if the filament runs out.
 
 Forked from [Octoprint-Filament-Reloaded](https://github.com/kontakt/Octoprint-Filament-Reloaded) plugin by kontakt based on the [Octoprint-Filament](https://github.com/MoonshineSG/Octoprint-Filament) plugin by MoonshineSG.
 
@@ -19,7 +19,7 @@ Using this plugin requires a filament sensor. OrangePi OPi.GPIO library do not s
 ## Installation
 
 * Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager).
-* Manually using this URL: https://github.com/arhi/Octoprint-Filament-Reloaded/archive/master.zip
+* Manually using this URL: https://github.com/arhi/Octoprint-Filament-Reloaded-OrangePi/archive/master.zip
 
 ## Configuration
 
