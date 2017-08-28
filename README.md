@@ -11,7 +11,6 @@ Using this plugin requires a filament sensor. OrangePi OPi.GPIO library do not s
 
 ## TODO
 
-* Add SUNXI pin numbering type
 * Add sowftware debounce of noisy sensors.
 * rename?
 * Add a way to switch between OPi and RPi?

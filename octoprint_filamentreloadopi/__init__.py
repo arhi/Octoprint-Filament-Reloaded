@@ -46,9 +46,12 @@ class FilamentReloadedPlugin(octoprint.plugin.StartupPlugin,
             if self.mode == 0:
                 self._logger.info("Using Board Mode")
                 GPIO.setmode(GPIO.BOARD)
-            else:
+            elif self.mode == 1:
                 self._logger.info("Using BCM Mode")
                 GPIO.setmode(GPIO.BCM)
+            else:
+                self._logger.info("Using SUNXI Mode");
+                GPIO.setmode(GPIO.SUNXI)
             self._logger.info("Filament Sensor active on GPIO Pin [%s]"%self.pin)
             GPIO.setup(self.pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
         else:

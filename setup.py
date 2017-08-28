@@ -4,27 +4,27 @@
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
-plugin_identifier = "filamentreload"
+plugin_identifier = "filamentreloadopi"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
-plugin_package = "octoprint_filamentreload"
+plugin_package = "octoprint_filamentreloadopi"
 
 # The plugin's human readable name. Can be overwritten within OctoPrint's internal data via __plugin_name__ in the
 # plugin module
-plugin_name = "Octoprint-FilamentReload"
+plugin_name = "Octoprint-FilamentReload-OrangePi"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "1.0.1"
+plugin_version = "0.0.1"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
-plugin_description = """A revamped and rewritten filament monitor that pauses the print when your filament runs out"""
+plugin_description = """Use GPIO on your OrangePi as filament runout sensor to pause print"""
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
-plugin_author = "Connor Huffine"
+plugin_author = "Bogdan Kecman forked from Connor Huffine who based work on ovidiu plugin"
 
 # The plugin's author's mail address.
-plugin_author_email = "chuffine@gmail.com"
+plugin_author_email = "arhi.smece@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
 plugin_url = "https://github.com/arhi/Octoprint-Filament-Reloaded-OrangePi"
