@@ -126,7 +126,7 @@ class FilamentReloadedPlugin(octoprint.plugin.StartupPlugin,
     def get_update_information(self):
         return dict(
             octoprint_filament=dict(
-                displayName="Filament Sensor Reloaded",
+                displayName="Filament Sensor Reloaded (OrangePi)",
                 displayVersion=self._plugin_version,
 
                 # version check: github repository
@@ -140,7 +140,7 @@ class FilamentReloadedPlugin(octoprint.plugin.StartupPlugin,
             )
         )
 
-__plugin_name__ = "Filament Sensor Reloaded"
+__plugin_name__ = "Filament Sensor Reloaded (OrangePi)"
 __plugin_version__ = "1.0.1"
 
 def __plugin_load__():
