@@ -24,10 +24,11 @@
     </div>
     <div class="control-group">
         <label class="control-label">{{ _('Board Pin Mode:') }}</label>
-        <div class="controls" data-toggle="tooltip" title="{{ _('RPi pins numbered in Board mode or BCM mode?') }}">
+        <div class="controls" data-toggle="tooltip" title="{{ _('OPi pins numbered in Board mode, BCM mode or SUNXI mode?') }}">
            <select class="select-mini" data-bind="value: settings.plugins.filamentreload.mode">
                 <option value=0>{{ _('Board Mode') }}</option>
                 <option value=1>{{ _('BCM Mode') }}</option>
+                <option value=2>{{ _('SUNXI Mode') }}</option>
         </select>
         </div>
     </div>
