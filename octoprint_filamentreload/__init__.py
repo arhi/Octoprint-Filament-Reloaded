@@ -13,9 +13,7 @@ class FilamentReloadedPlugin(octoprint.plugin.StartupPlugin,
                              octoprint.plugin.SettingsPlugin):
 
     def initialize(self):
-        self._logger.info("Running RPi.GPIO version '{0}'".format(GPIO.VERSION))
-        if GPIO.VERSION < "0.6":       # Need at least 0.6 for edge detection
-            raise Exception("RPi.GPIO must be greater than 0.6")
+        self._logger.info("Running OPi.GPIO ")
         GPIO.setwarnings(False)        # Disable GPIO warnings
 
     @property
