@@ -3,7 +3,7 @@ from __future__ import absolute_import
 
 import octoprint.plugin
 from octoprint.events import Events
-import RPi.GPIO as GPIO
+import OPi.GPIO as GPIO
 from time import sleep
 
 
