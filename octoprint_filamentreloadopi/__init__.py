@@ -134,17 +134,17 @@ class FilamentReloadedPlugin(octoprint.plugin.StartupPlugin,
 
                 # version check: github repository
                 type="github_release",
-                user="kontakt",
-                repo="Octoprint-Filament-Reloaded",
+                user="arhi",
+                repo="Octoprint-Filament-Reloaded-OrangePi",
                 current=self._plugin_version,
 
                 # update method: pip
-                pip="https://github.com/kontakt/Octoprint-Filament-Reloaded/archive/{target_version}.zip"
+                pip="https://github.com/arhi/Octoprint-Filament-Reloaded-OrangePi/archive/{target_version}.zip"
             )
         )
 
 __plugin_name__ = "Filament Sensor Reloaded (OrangePi)"
-__plugin_version__ = "1.0.1"
+__plugin_version__ = "0.0.1"
 
 def __plugin_load__():
     global __plugin_implementation__
