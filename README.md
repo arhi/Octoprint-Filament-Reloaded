@@ -23,3 +23,7 @@ Using this plugin requires a filament sensor. OrangePi OPi.GPIO library do not s
 ## Configuration
 
 After installation, configure the plugin via OctoPrint Settings interface.
+
+## Issues with OPI GPIO library
+
+Note that OPI GPIO library has a race condition that does not allow it to properly set privs to the GPIO so it's a huge problem. The "hack" to this problem is to edit  /home/pi/OctoPrint/venv/lib/python2.7/site-packages/OPi/GPIO.py and add a delay as explained here: https://discourse.octoprint.org/t/solved-octoprint-filament-reloaded-orangepi/3576/3?u=arhi
