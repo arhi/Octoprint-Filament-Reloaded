@@ -49,6 +49,6 @@ Since we are accessing the GPIO as a non root user we need to configure the OS t
 https://github.com/rm-hull/OPi.GPIO/pull/28 solves the issues with PI GPIO library and the race condition that was preventing normal operations. It is available in release v0.3.4 and up so make sure you have latest OPI GPIO library. To upgrade to latest OPI GPIO library login to your octoprint server as user ``pi`` and execute:
 
 ```
- cd OctoPrint/ 
- venv/bin/pip install --upgrade OPi.GPIO
+ $ cd OctoPrint/ 
+ $ venv/bin/pip install --upgrade OPi.GPIO
 ```
